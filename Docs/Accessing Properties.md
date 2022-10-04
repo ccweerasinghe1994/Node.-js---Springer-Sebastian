@@ -108,5 +108,16 @@ happen many times faster, because the engine can directly use the
 hidden class of the object and this contains the reference to the
 memory section of the property.
 
+**Hidden Classes in the V8 Engine**
 
 
+![img](./img/01_003.png)
+
+
+**Event Loop**
+
+![img](./img/01_004.png)
+
+**Downloads from Node.js**
+
+![img](./img/02_001.png)
