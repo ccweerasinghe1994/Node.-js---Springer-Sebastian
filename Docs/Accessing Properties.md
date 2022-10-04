@@ -78,3 +78,35 @@ class Person {
 
 const johnDoe = new Person("John", "Doe");
 ```
+
+In the example, you create a new constructor function for the group
+of `person` objects. This constructor has two parameters—the `first
+name` and the last name of the person. These two values are to be
+stored in the `firstname` and lastname properties of the object,
+respectively. When a new object is created with this constructor
+using the new operator, an initial hidden class, class 0, is created first.
+This doesn’t yet contain any pointers to properties. If the first
+assignment is made, that is, the first name is set, a new hidden
+class, class 1, is created based on class 0. This now contains a
+reference to the memory section of the `firstname` property, relative to
+the beginning of the object’s namespace. In addition, a class
+transition is added to class 0, which states that class 1 should be
+used instead of class 0 if the `firstname` property is added. The same
+process takes place when the second assignment is performed for
+the last name. Another hidden class, class 2, is created based on
+class 1, which then contains the offset for both the `firstname` and
+lastname properties and inserts a transition indicating that class 2
+should be used when the lastname property is used. If properties are
+added away from the constructor, and this is done in a different
+order, new hidden classes are created in each case. Figure 1.3
+clarifies this process.
+
+When the properties of an object are accessed for the first time, the
+use of hidden classes doesn’t yet result in a speed advantage.
+However, all subsequent accesses to the property of the object then
+happen many times faster, because the engine can directly use the
+hidden class of the object and this contains the reference to the
+memory section of the property.
+
+
+
