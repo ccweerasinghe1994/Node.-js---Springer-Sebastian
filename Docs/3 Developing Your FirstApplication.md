@@ -121,7 +121,8 @@ the line.
 ### 3.1.3 Saving and Loading in the REPL
 
 ### 3.1.4 Context of the REPL
-### REPL History
+### 3.1.5 REPL History
+
 
 ### 3.1.6 REPL Mode
 ### 3.1.7 Searching in the REPL
