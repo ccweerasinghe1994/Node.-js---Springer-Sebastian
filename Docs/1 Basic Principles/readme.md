@@ -179,6 +179,25 @@ a stream. Because the previous API was already widely used, both
 interfaces continued to be supported.
 
 ### 1.1.5 io.js: The Fork of Node.js
+
+In January 2014, there was another change in the project
+management of Node.js. Schlueter, who left Node.js maintenance in
+favor of his own company (called npmjs), the host of the npm
+repository, was succeeded by TJ Fontaine. Under his direction,
+version 0.12 was released in February 2014. A common criticism of
+Node.js at the time was that the framework had still not reached the
+supposedly stable version 1.0, which prevented numerous
+companies from using Node.js for critical applications.
+
+Many developers were unhappy with Joyent, which had provided
+maintainers for Node.js since Dahl, and so the community fractured
+in December 2014. The result was io.js, a fork of Node.js that was
+developed separately from the original platform. As a result, the
+independent Node.js Foundation was founded in February 2015,
+which was responsible for the further development of io.js. At the
+same time, version 0.12 of the Node.js project was released.
+
+
 ### 1.1.6 Node.js Reunited
 ### 1.1.7 Deno: A New Star in the JavaScript Sky
 ### 1.1.8 OpenJS Foundation
