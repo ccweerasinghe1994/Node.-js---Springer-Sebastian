@@ -231,6 +231,13 @@ number of npm packages either. For this purpose, Deno provides a
 compatibility layer. You can read more about Deno in Chapter 28.
 
 ### 1.1.8 OpenJS Foundation
+In 2015, the Node.js Foundation was established to coordinate the
+development of the platform. The foundation was a subordinate
+project of the Linux Foundation. In 2019, the JS Foundation and the
+Node.js Foundation then merged to form the OpenJS Foundation. In
+addition to Node.js, it includes a number of other popular projects
+such as webpack, ESLint, and Electron.
+
 
 ##  1.2 Organization of Node.js
 ### 1.2.1 Technical Steering Committee
