@@ -268,6 +268,21 @@ via the Node.js YouTube channel
 
 
 ### 1.2.2 Collaborators
+Node.js is an open-source project developed in a GitHub repository.
+As with all larger projects of this type, a group of people, called
+collaborators, have write access to this repository. In addition to
+accessing the repository, a collaborator can access the continuous
+integration jobs. Typical tasks of a collaborator include supporting
+users and new collaborators, improving Node.js source code and
+documentation, reviewing pull requests and issues (with appropriate
+commenting), participating in working groups, and merging pull
+requests.
+
+Collaborators are designated by the TSC. Usually the role of a
+collaborator is preceded by a significant contribution to the project
+via a pull request.
+
+
 ### 1.2.3 Community Committee
 ### 1.2.4 Work Groups
 ### 1.2.5 OpenJS Foundation
