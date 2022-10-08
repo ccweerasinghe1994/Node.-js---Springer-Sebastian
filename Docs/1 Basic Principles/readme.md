@@ -199,6 +199,14 @@ same time, version 0.12 of the Node.js project was released.
 
 
 ### 1.1.6 Node.js Reunited
+
+In June 2015, the two projects io.js and Node.js were merged into
+the Node.js Foundation. With version 4 of the project, the merger
+was completed. Further development of the Node.js platform is now
+coordinated by a committee within the Node.js Foundation rather
+than by individuals. As a result, we see more frequent releases and
+a stable version with long-term support (LTS).
+
 ### 1.1.7 Deno: A New Star in the JavaScript Sky
 ### 1.1.8 OpenJS Foundation
 
