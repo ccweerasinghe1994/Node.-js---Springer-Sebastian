@@ -208,6 +208,28 @@ than by individuals. As a result, we see more frequent releases and
 a stable version with long-term support (LTS).
 
 ### 1.1.7 Deno: A New Star in the JavaScript Sky
+Since the merger of io.js and Node.js, things have become quieter
+around Node.js. The regular releases, the stability, and also the
+integration of new features, such as worker threads, HTTP/2 or
+performance hooks, keep up the good mood within the community.
+And just when things were starting to get almost too quiet around
+Node.js, an old acquaintance, Dahl, took the stage again in 2018 to
+introduce a new JavaScript platform called Deno during his talk, “10
+Things I Regret about Node.js.”
+
+The idea behind Deno is to create a better Node.js, untethered from
+the backwards compatibility constraints that prevent revolutionary
+leaps in development. For example, Deno is based on TypeScript by
+default and adds a fundamentally different module system. Deno’s
+core is also quite different from Node.js, as it’s written almost entirely
+in Rust.
+
+Nevertheless, there are also some common features. For example,
+Deno is based on the tried and tested V8 engine, which also forms
+the heart of Node.js. And you don’t have to do without the huge
+number of npm packages either. For this purpose, Deno provides a
+compatibility layer. You can read more about Deno in Chapter 28.
+
 ### 1.1.8 OpenJS Foundation
 
 ##  1.2 Organization of Node.js
