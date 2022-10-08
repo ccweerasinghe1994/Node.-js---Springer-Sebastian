@@ -36,9 +36,61 @@
   - [1.8 Summary](#18-summary)
 
 ## 1.1 The Story of Node.js
-
+To help you better understand what Node.js is and how some of the
+development decisions came about, let's explore the history of the
+platform.
 ### 1.1.1 Origins
+Node.js was originally developed by Ryan Dahl, a PhD student in
+mathematics who thought better of it, abandoned his efforts, and
+instead preferred to travel to South America with a one-way ticket
+and very little money in his pocket. There, he kept his head above
+water by teaching English. During this time, he got in touch with PHP
+as well as Ruby and discovered his affection for web development.
+The problem with working with the Ruby framework, called Rails,
+was that it couldn’t deal with concurrent requests without any
+workaround. The applications were too slow and utilized the CPU
+entirely. Dahl found a solution to his problems with Mongrel, a web
+server for applications based on Ruby.
 
+Unlike traditional web servers, Mongrel responds to user requests
+and generates responses dynamically, where otherwise only static
+HTML pages are delivered.
+
+The task that actually led to the creation of Node.js is quite trivial
+from today’s point of view. In 2005, Dahl was looking for an elegant
+
+way to implement a progress bar for file uploads. However, the
+technologies available at the time only allowed unsatisfactory
+solutions. Regarding file transfers, HTTP was used for relatively
+small files, and File Transfer Protocol (FTP) was used for larger files.
+The status of the upload was queried using long polling, which is a
+technique where the client sends long-lived requests to the server,
+and the server uses the open channel for replies. Dahl’s first attempt
+to implement a progress bar took place in Mongrel. After sending the
+file to the server, it checked the status of the upload using a large
+number of Asynchronous JavaScript and XML (AJAX) requests and
+displayed it graphically in a progress bar. However, the downside of
+this implementation was Ruby’s single-threaded approach and the
+large number of requests that were required.
+
+Another promising approach involved an implementation in C. Here,
+Dahl’s options weren’t limited to one thread. However, C as a
+programming language for the web has a decisive disadvantage:
+only a small number of developers are enthusiastic about this field of
+application. Dahl was also confronted with this problem and
+discarded this approach after a short time.
+
+The search for a suitable programming language to solve his
+problem continued and led him to functional programming languages
+such as Haskell. Haskell’s approach is built on nonblocking
+input/output (I/O), which means that all read and write operations are
+asynchronous and don’t block the execution of a program. This
+allows the language to remain single-threaded at its core and doesn’t
+introduce the problems that arise from parallel programming. Among
+other things, no resources have to be synchronized, and no
+problems are caused by the runtime of parallel threads. However,
+Dahl still wasn’t fully satisfied with this solution and was looking for
+other options.
 ### 1.1.2 Birth of Node.js
 ### 1.1.3 Breakthrough of Node.js
 ### 1.1.4 Node.js Conquers Windows
