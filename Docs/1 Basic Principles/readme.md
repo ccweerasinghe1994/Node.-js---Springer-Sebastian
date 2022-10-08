@@ -121,6 +121,35 @@ In September 2009, Isaac Schlueter started working on a package
 manager for Node.js, the Node Package Manager (npm).
 
 ### 1.1.3 Breakthrough of Node.js
+
+After Dahl integrated all the components and created the first
+executable examples on the new Node.js platform, he needed a way
+to introduce Node.js to the public. This also became necessary
+because his financial resources shrank considerably due to the
+development of Node.js, and he would have had to stop working on
+Node.js if he didn’t find any sponsors. He chose the JavaScript
+conference JSConf EU in November 2009 in Berlin as his
+presentation platform. Dahl put all his eggs in one basket. If the
+presentation was a success and he found sponsors to support his
+work on Node.js, he could continue his involvement; if not, almost a
+year’s work would have been in vain. In a rousing talk, he introduced
+Node.js to the audience and showed how to create a fully functional
+web server with just a few lines of JavaScript code. As another
+example, he introduced an implementation of an Internet Relay Chat
+(IRC) chat server. The source code for this demonstration comprised
+about 400 lines. Using this example, he demonstrated the
+architecture and thus the strengths of Node.js while making it
+tangible for the audience. The recording of this presentation can be
+found at www.youtube.com/watch?v=EeYvFl7li9E. The presentation
+didn’t miss its mark and led to Joyent stepping in as a sponsor for
+Node.js. Joyent is a San Francisco-based software and services
+provider offering hosting solutions and cloud infrastructure. With its
+commitment, Joyent included the open-source software Node.js in its
+product portfolio and made Node.js available to its customers as part
+of its hosting offerings. Dahl was hired by Joyent and became a fulltime
+maintainer for Node.js from that point on.
+
+
 ### 1.1.4 Node.js Conquers Windows
 ### 1.1.5 io.js: The Fork of Node.js
 ### 1.1.6 Node.js Reunited
