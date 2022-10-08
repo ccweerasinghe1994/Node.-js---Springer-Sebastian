@@ -240,7 +240,32 @@ such as webpack, ESLint, and Electron.
 
 
 ##  1.2 Organization of Node.js
+
+The community behind Node.js has learned its lessons from the
+past. For this reason, there are no longer individuals at the helm of
+Node.js, but a committee of several people who steer the
+development of the platform.
+
+
 ### 1.2.1 Technical Steering Committee
+
+The technical steering committee (TSC) is responsible for further
+developing the platform. The number of members of the TSC isn’t
+limited, but 6 to 12 members are targeted, usually selected from the
+contributors to the platform. The tasks of the TSC are as follows:
+
+- Setting the technical direction of Node.js
+- Performing project and process control
+- Defining the contribution policy
+- Managing the GitHub repository
+- Establishing the conduct guidelines
+- Managing the list of collaborators
+
+The TSC holds weekly meetings via Google Hangouts to coordinate
+and discuss current issues. Many of these meetings are published
+via the Node.js YouTube channel
+(www.youtube.com/c/nodejs+foundation).
+
 
 ### 1.2.2 Collaborators
 ### 1.2.3 Community Committee
