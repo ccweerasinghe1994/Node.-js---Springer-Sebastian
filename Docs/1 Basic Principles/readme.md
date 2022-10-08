@@ -92,6 +92,34 @@ problems are caused by the runtime of parallel threads. However,
 Dahl still wasn’t fully satisfied with this solution and was looking for
 other options.
 ### 1.1.2 Birth of Node.js
+Dahl then found the solution he was finally satisfied with—
+JavaScript. He realized that this scripting language could meet all his
+requirements. JavaScript had already been established on the web
+for years, so there were powerful engines and a large number of
+developers. In January 2009, he began working on his
+implementation for server-side JavaScript, which can be regarded as
+the birth of Node.js. Another reason for implementing the solution in
+JavaScript, according to Dahl, was the fact that the developers of
+JavaScript didn’t envision this area of use. At that time, no native
+web server existed in JavaScript, it couldn’t handle files in a file
+system, and there was no implementation of sockets to
+communicate with other applications or systems. All these points
+spoke in favor of JavaScript as the basis for a platform for interactive
+web applications because no determinations had yet been made in
+this area, and, consequently, no mistakes had yet been made either.
+The architecture of JavaScript also argued for such an
+implementation. The approach of top-level functions (i.e., functions
+that aren’t linked to any object, are freely available, and can be
+assigned to variables) offers a high degree of flexibility in
+development and enables functional approaches to solutions.
+
+Thus, Dahl selected other libraries in addition to the JavaScript
+engine, which is responsible for interpreting the JavaScript source
+code, and put them together in one platform.
+
+In September 2009, Isaac Schlueter started working on a package
+manager for Node.js, the Node Package Manager (npm).
+
 ### 1.1.3 Breakthrough of Node.js
 ### 1.1.4 Node.js Conquers Windows
 ### 1.1.5 io.js: The Fork of Node.js
