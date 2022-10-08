@@ -151,6 +151,33 @@ maintainer for Node.js from that point on.
 
 
 ### 1.1.4 Node.js Conquers Windows
+The developers made a significant step toward the spread of Node.js
+by introducing native support for Windows in version 0.6 in
+November 2011. Up to that point, Node.js could only be installed
+awkwardly on Windows via Cygwin.
+
+Since version 0.6.3 in November 2011, npm has been an integral
+part of the Node.js packages and is thus automatically delivered
+when Node.js is installed.
+
+Surprisingly, at the start of 2012, Dahl announced that he would
+finally retire from active development after three years of working on
+Node.js. He handed over the reins of development to Schlueter. The
+latter, like Dahl, was an employee at Joyent and actively involved in
+the development of the Node.js core. The change unsettled the
+community, as it wasn’t clear whether the platform would continue to
+develop without Dahl. A signal that the Node.js community
+considered as being strong enough for solid further development
+came with the release of version 0.8 in June 2012, which was
+primarily intended to significantly improve the performance and
+stability of Node.js.
+
+With version 0.10 in March 2013, one of the central interfaces of
+Node.js changed: the Stream application programming interface
+(API). With this change, it became possible to actively pull data from
+a stream. Because the previous API was already widely used, both
+interfaces continued to be supported.
+
 ### 1.1.5 io.js: The Fork of Node.js
 ### 1.1.6 Node.js Reunited
 ### 1.1.7 Deno: A New Star in the JavaScript Sky
