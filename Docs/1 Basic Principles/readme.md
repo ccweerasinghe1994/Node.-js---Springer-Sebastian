@@ -284,6 +284,15 @@ via a pull request.
 
 
 ### 1.2.3 Community Committee
+
+As the name implies, the Community Committee (CommComm)
+takes care of the Node.js community with a special focus on
+education and culture. The CommComm coordinates in regular
+meetings, which are recorded in a separate GitHub repository
+(https://github.com/nodejs/community-committee). The CommComm
+exists to give the community a voice and thus counterbalance the
+commercial interests of corporations.
+
 ### 1.2.4 Work Groups
 ### 1.2.5 OpenJS Foundation
 ## 1.3 Versioning of Node.js
