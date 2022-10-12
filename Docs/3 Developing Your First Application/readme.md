@@ -1,5 +1,18 @@
 # [🏠 Home Page](../../readme.md)
 
+- [🏠 Home Page](#-home-page)
+- [3 Developing Your First Application](#3-developing-your-first-application)
+  - [3.1 Interactive Mode](#31-interactive-mode)
+    - [3.1.1 General Use](#311-general-use)
+    - [3.1.2 Other REPL Commands](#312-other-repl-commands)
+    - [3.1.3 Saving and Loading in the REPL](#313-saving-and-loading-in-the-repl)
+    - [3.1.4 Context of the REPL](#314-context-of-the-repl)
+    - [3.1.5 REPL History](#315-repl-history)
+    - [3.1.6 REPL Mode](#316-repl-mode)
+    - [3.1.7 Searching in the REPL](#317-searching-in-the-repl)
+    - [3.1.8 Asynchronous Operations in the REPL](#318-asynchronous-operations-in-the-repl)
+  - [3.2 The First Application](#32-the-first-application)
+
 # 3 Developing Your First Application
 
 By the time you get here, you should already have a working
