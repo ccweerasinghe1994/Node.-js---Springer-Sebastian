@@ -132,7 +132,23 @@ The .break and .clear commands are used when the command line
 is blocked by incorrect input. Listing 3.5 shows a use case for these
 commands.
 
-
+use of .break
+```js
+function greet(name) {
+.. .break
+```
+In the example in Listing 3.5, you’ve started to formulate a function,
+but you don’t want to finish writing it, you would rather cancel the
+entry. You can’t terminate the current input by pressing the (Enter)
+key, as this would merely insert a line break. If you find that you’ve
+made a similar mistake in your input, you can terminate the current
+input by using the .break command and enter your command again.
+The same effect can be achieved via the shortcut (Ctrl)+(C). The
+Node.js REPL provides the option to navigate through the history of
+the most recent commands. With this feature, you don’t have to
+retype your command, but you can use the (Up) and (Down) arrow
+keys to navigate through the history of entered commands, retrieve
+the corresponding command line, correct it, and enter it again.
 ### 3.1.3 Saving and Loading in the REPL
 
 ### 3.1.4 Context of the REPL
